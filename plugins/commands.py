@@ -36,7 +36,7 @@ async def showid(client, message):
         user_id = message.from_user.id
         chat_id = message.chat.id
         if message.reply_to_message:
-            reply_id = f"Replied User ID : `{message.reply_to_message.from_user.id}`"
+            reply_id = f"Replied 🤔User ID : `{message.reply_to_message.from_user.id}`"
         else:
             reply_id = ""
         await message.reply_text(
@@ -217,10 +217,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❓Command Help❓", callback_data="help_data")
-                ],
-                [
-                    InlineKeyboardButton"🎈Abou🎈", callback_data="about_data")
+                    InlineKeyboardButton("❓ My Commands And Help ❓", callback_data="help_data")
                 ]
             ]
         ),
@@ -246,11 +243,10 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❤️Developer❤️", url="https://t.me/omindas"),
-                    InlineKeyboardButton("🤖About Me🤖", callback_data="about_data")
+                    InlineKeyboardButton("♻️ About Me ♻️", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻Support Channal👨‍💻", url="https://t.me/sdprojectupdates"),
+                    InlineKeyboardButton("🎈Developer🎈", url="https://t.me/omindas"),
                     InlineKeyboardButton("👨‍💻Support Group👨‍💻", url="https://t.me/sdbotworld")
                 ]
             ]
