@@ -52,7 +52,9 @@ There is no practical limits for my filtering capacity🤗 :)
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Unlimited Filter Bot</b>
+    ABOUT_MSG = """⚡You Can A Filtering Inlimited Use Me⚡
+    
+⭕️<b>My Name : Unlimited Filter Bot</b>
 
 ⭕️<b>Creater :</b> @omindas    
 
@@ -60,4 +62,5 @@ There is no practical limits for my filtering capacity🤗 :)
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
+⭕<b>Source Code : https://github.com/omindadelshan</b>
 """
