@@ -218,6 +218,9 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton("❓Command Help❓", callback_data="help_data")
+                ],
+                [
+                    InlineKeyboardButton"🎈Abou🎈", callback_data="about_data")
                 ]
             ]
         ),
