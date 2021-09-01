@@ -246,8 +246,8 @@ async def help(client, message):
                     InlineKeyboardButton("♻️ About Me ♻️", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🎈Developer🎈", url="https://t.me/omindas"),
-                    InlineKeyboardButton("👨‍💻Support Group👨‍💻", url="https://t.me/sdbotworld")
+                    InlineKeyboardButton("📣 Channal", url="https://t.me/szbots"),
+                    InlineKeyboardButton("⚡ Developer", url="https://t.me/omindas")
                 ]
             ]
         ),
@@ -264,7 +264,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎲SOURCE CODE🎲", url="https://github.com/omindadelshan")
+                        "🎲 Follow me github", url="https://github.com/omindaomindadelshan")
                 ],
                 [
                     InlineKeyboardButton("👇 BACK 👈", callback_data="help_data"),
