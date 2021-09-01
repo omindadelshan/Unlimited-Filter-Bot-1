@@ -2,10 +2,10 @@ class Script(object):
 
     START_MSG = """<b>😋Hy {},
 
-I'm an advanced filter bot with many capabilities💎!
-There is no practical limits for my filtering capacity🤗 :)
+I'm an advanced filter bot with many capabilities!
+There is no practical limits for my filtering capacits :)
 
-🎈See <i>/help</i> for commands and more details🎈.</b>
+See <i>/help</i> for commands and more details.</b>
 """
 
 
@@ -48,7 +48,7 @@ There is no practical limits for my filtering capacity🤗 :)
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details👈!
 
 
-<b>© @omindas 💎</b>
+<b>© Team SZ 💎</b>
 """
 
 
@@ -56,11 +56,11 @@ There is no practical limits for my filtering capacity🤗 :)
     
 ⭕️<b>My Name : Unlimited Filter Bot</b>
 
-⭕️<b>Creater :</b> @omindas    
+⭕️<b>Creater :</b> @omindas   
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
-⭕<b>Source Code : https://github.com/omindadelshan</b>
+⭕<b>Channal : https://t.me/szbots</b>
 """
