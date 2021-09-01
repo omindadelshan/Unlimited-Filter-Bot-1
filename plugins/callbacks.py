@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❤️Developer❤️", url="https://t.me/omindas"),
-                    InlineKeyboardButton("🤖About Me🤖", callback_data="about_data")
+                    InlineKeyboardButton("❤️ Developer", url="https://t.me/omindas"),
+                    InlineKeyboardButton("💠 About Bot", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻Support Channal👨‍💻", url="https://t.me/sdprojectupdates"),
-                    InlineKeyboardButton("👨‍💻Support Group👨‍💻", url="https://t.me/sdbotworld")
+                    InlineKeyboardButton("📣 Channal", url="https://t.me/szbots"),
+                    InlineKeyboardButton("🙋‍♀️ Ectra support", url="https://t.me/slbotzone")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "🎲SOURCE CODE🎲", url="https://github.com/omindadelshan")
+                        "🎲 Follow Me grithub", url="https://github.com/omindadelshan")
                 ],
                 [
                     InlineKeyboardButton("👇 BACK 👈", callback_data="help_data"),
